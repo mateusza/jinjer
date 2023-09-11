@@ -1,13 +1,14 @@
 # Jinjer
 
-Jinjer is a command-line tool that allows you to generate text or Markdown documents using Jinja2 templates. It provides a flexible way to populate templates with data from various sources, including command-line arguments, JSON input, files, and environment variables.
+Jinjer is a command-line tool that allows you to generate text, HTML or Markdown documents using Jinja2 templates. It provides a flexible way to populate templates with data from various sources, including command-line arguments, JSON input, files, and environment variables.
 
 ## Installation
 
-You can install Jinjer using pip:
+~~You can install Jinjer using pip:~~
 
 ```bash
-pip install jinjer
+# not yet done
+# pip install jinjer
 ```
 
 ## Usage
