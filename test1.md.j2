@@ -1,0 +1,27 @@
+# {{ title }}
+
+This is a sample Markdown document generated with Jinja2.
+
+## Introduction
+
+Hello, {{ user }}! Welcome to this Markdown document.
+
+{% if hobbies %}
+## Your Hobbies
+
+Here are your hobbies:
+
+{% for hobby in hobbies %}
+- {{ hobby }}
+{% endfor %}
+{% else %}
+You haven't listed any hobbies.
+{% endif %}
+
+{% if age > 18 %}
+## Age
+You are {{ age }} years old, which makes you an adult.
+{% else %}
+## Age
+You are {{ age }} years old, which makes you a minor.
+{% endif %}
